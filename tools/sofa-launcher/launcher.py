@@ -9,7 +9,7 @@
 #       - damien.marchal@univ-lille.1
 #############################################################################
 import threading
-from queue import Queue
+from multiprocessing import Queue
 import tempfile 
 import sys
 from Cheetah.Template import Template
